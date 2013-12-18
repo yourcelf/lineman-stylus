@@ -1,33 +1,33 @@
 {
-  name: "lineman-stylus",
-  title: "A Stylus plugin for Lineman",
-  version: "0.0.1",
-  homepage: "https://github.com/richgilbank/lineman-stylus",
-  author: {
-    name: "Rich Gilbank",
-    company: "Shopify"
+  "name": "lineman-stylus",
+  "title": "A Stylus plugin for Lineman",
+  "version": "0.0.1",
+  "homepage": "https://github.com/richgilbank/lineman-stylus",
+  "author": {
+    "name": "Rich Gilbank",
+    "company": "Shopify"
   },
-  repository: {
-    type: "git",
-    url: "git://github.com/richgilbank/lineman-stylus.git"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/richgilbank/lineman-stylus.git"
   },
-  main: "main.js",
-  dependencies: {
-    coffee-script: "~1.6.3",
-    grunt: "~0.4.2"
+  "main": "main.js",
+  "dependencies": {
+    "coffee-script": "~1.6.3",
+    "grunt": "~0.4.2"
   },
-  devDependencies: {
-    grunt: "~0.4.1",
-    stylus: "~0.41.3",
-    grunt-contrib-stylus: "~0.11.0"
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "stylus": "~0.41.3",
+    "grunt-contrib-stylus": "~0.11.0"
   },
-  peerDependencies: {
-    lineman: ">= 0.19.0"
+  "peerDependencies": {
+    "lineman": ">= 0.19.0"
   },
-  licenses: [
+  "licenses": [
     {
-      type: "MIT",
-      url: "http://mit-license.org"
+      "type": "MIT",
+      "url": "http://mit-license.org"
     }
   ]
 }
