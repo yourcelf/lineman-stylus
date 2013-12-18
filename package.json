@@ -1,7 +1,7 @@
 {
   "name": "lineman-stylus",
   "title": "A Stylus plugin for Lineman",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/richgilbank/lineman-stylus",
   "author": {
     "name": "Rich Gilbank",
