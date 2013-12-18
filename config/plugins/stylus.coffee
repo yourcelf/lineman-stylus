@@ -1,4 +1,5 @@
 module.exports = (lineman) ->
+  baseConfig = lineman.config.application
 
   files:
     stylus:
@@ -8,11 +9,11 @@ module.exports = (lineman) ->
       app: 'app/css/**/*.styl'
 
   config:
-    loadNpmTasks: lineman.config.application.loadNpmTasks.concat('grunt-contrib-stylus')
+    loadNpmTasks: baseConfig.loadNpmTasks.concat('grunt-contrib-stylus')
     removeTasks:
-      common: lineman.config.application.removeTasks.common.concat('less')
+      common: baseConfig.removeTasks.common.concat('less')
     prependTasks:
-      common: lineman.config.application.prependTasks.common.concat('stylus:compile')
+      common: baseConfig.prependTasks.common.concat('stylus:compile')
 
     stylus:
       compile:
