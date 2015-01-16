@@ -13,7 +13,7 @@
   },
   "main": "main.js",
   "dependencies": {
-    "stylus": "~0.41.3",
+    "stylus": "*",
     "grunt-contrib-stylus": "~0"
   },
   "peerDependencies": {
